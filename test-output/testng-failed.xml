@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.bridgelabz.CaptureScreenshot">
+      <class name="com.bridgelabz.BrowserNavigation">
         <methods>
-          <include name="captureScreenshot"/>
+          <include name="navigationTest"/>
         </methods>
-      </class> <!-- com.bridgelabz.CaptureScreenshot -->
+      </class> <!-- com.bridgelabz.BrowserNavigation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
